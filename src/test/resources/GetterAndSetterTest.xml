@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Man and Woman - Getter and Setter test">
+    <test name="Getter and Setter test">
+        <parameter name="firstNameMan" value="Vasya"/>
+        <parameter name="lastNameMan" value="Petrov"/>
+        <parameter name="ageManSimple" value="64"/>
+        <parameter name="ageManRetired" value="65"/>
+
+        <parameter name="firstNameWoman" value="Lida"/>
+        <parameter name="lastNameWoman" value="Koval"/>
+        <parameter name="ageWomanSimple" value="59"/>
+        <parameter name="ageWomanRetired" value="60"/>
+
+        <parameter name="partner" value="Single"/>
+        <parameter name="testPartner" value="TestPartner"/>
+        <parameter name="setAge" value="85"/>
+        <parameter name="setLastName" value="Klynin"/>
+
+        <classes>
+            <class name="regression.persontest.PersonGetterSetterOperationTests"/>
+        </classes>
+    </test>
+</suite>
